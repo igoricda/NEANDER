@@ -1,0 +1,120 @@
+v 4
+file . "NEANDER_tb.vhdl" "7b54c0403b911b34596d91a3b4844c374e32235d" "20240516180138.379":
+  entity tb_neander at 3( 160) + 0 on 3361;
+  architecture letsdothis of tb_neander at 9( 249) + 0 on 3362;
+file . "ULA.vhdl" "7030d87f3db96e0ed61970855aafcc161d22e111" "20240516180138.390":
+  entity moduloula at 1( 0) + 0 on 3365;
+  architecture alu of moduloula at 15( 389) + 0 on 3366;
+  entity moduloulainterno at 64( 1783) + 0 on 3367;
+  architecture aluinterna of moduloulainterno at 76( 2072) + 0 on 3368;
+  entity fadder8 at 149( 3595) + 0 on 3369;
+  architecture comportamento of fadder8 at 162( 3889) + 0 on 3370;
+  entity fadder at 191( 5001) + 0 on 3371;
+  architecture comp of fadder at 204( 5241) + 0 on 3372;
+  entity regcarga8b at 216( 5504) + 0 on 3373;
+  architecture reg8std_logic of regcarga8b at 229( 5783) + 0 on 3374;
+  entity regcarga2b at 256( 6837) + 0 on 3375;
+  architecture reg2std_logic of regcarga2b at 269( 7113) + 0 on 3376;
+  entity regcarga1b at 291( 7770) + 0 on 3377;
+  architecture reg1std_logic of regcarga1b at 304( 8008) + 0 on 3378;
+  entity ffjk at 333( 8776) + 0 on 3379;
+  architecture latch of ffjk at 345( 9022) + 0 on 3380;
+  entity ffd at 403( 11055) + 0 on 3381;
+  architecture latch of ffd at 415( 11300) + 0 on 3382;
+  entity fft at 438( 11833) + 0 on 3383;
+  architecture latch of fft at 450( 12078) + 0 on 3384;
+file . "tb_somador8b.vhdl" "23dca31c61986ecec0918456e2ae4ce6ae8157c8" "20240509010122.798":
+  entity tb_somador8b at 3( 38) + 0 on 307;
+  architecture main of tb_somador8b at 12( 165) + 0 on 308;
+file . "tb_regCarga8bit.vhdl" "b8436d823cfeb948859229a581f579b13786785b" "20240508232428.390":
+  entity tb_regcarga8bit at 1( 0) + 0 on 93;
+  architecture test of tb_regcarga8bit at 10( 160) + 0 on 94;
+file . "tb_real8b.vhdl" "f45af935b06b2442b5e34648637490cb850ea2c4" "20240508232428.389":
+  entity tb_real8b at 3( 36) + 0 on 91;
+  architecture main of tb_real8b at 12( 160) + 0 on 92;
+file . "tb_NEANDER_01-ULA_MEM.vhdl" "b2c76fc029db991221c6750db23ff7874b3b0cb1" "20240508232428.387":
+  entity tb_moduloulamem at 24( 1174) + 0 on 89;
+  architecture quickmath of tb_moduloulamem at 30( 1273) + 0 on 90;
+file . "tb_NEANDER_00-ULA.vhdl" "100b54320150aba7d258993975df0a87d1e08782" "20240508232428.385":
+  entity tb_moduloula at 24( 1105) + 0 on 87;
+  architecture quickmath of tb_moduloula at 30( 1198) + 0 on 88;
+file . "tb_decod_8_to_11.vhdl" "9d6e172483c910879fc59fc22719e4022d075691" "20240508232428.384":
+  entity tb_decod_8_to_11 at 3( 71) + 0 on 85;
+  architecture behavior of tb_decod_8_to_11 at 12( 202) + 0 on 86;
+file . "tbcont3bit.vhdl" "dc936aaccff3e63d562a319b6f7ec4afcd1a6444" "20240508232428.382":
+  entity tb_cont3b at 1( 0) + 0 on 83;
+  architecture test of tb_cont3b at 8( 102) + 0 on 84;
+file . "tb_as_ram.vhdl" "bfefe731229ad8ce9415f071d736bf321b0ab039" "20240508232428.381":
+  entity tb_as_ram at 1( 0) + 0 on 81;
+  architecture tb_behavior of tb_as_ram at 9( 126) + 0 on 82;
+file . "somador8b.vhdl" "5b70c4c9c0acc7eb1ac42e628bff8e898fe55bc8" "20240509010641.746":
+  entity somador8b at 5( 56) + 0 on 521;
+  architecture main of somador8b at 18( 271) + 0 on 522;
+file . "RI.vhdl" "33c6397a4c969750147056dc737f717f239c785f" "20240509010641.743":
+  entity ri at 3( 63) + 0 on 517;
+  architecture regi of ri at 17( 324) + 0 on 518;
+file . "regCarga8bit.vhdl" "1e5d9b83c9f017501f734df4b16b79c67d13e11d" "20240508232428.373":
+  entity regcarga8bit at 3( 29) + 0 on 69;
+  architecture reg8bit of regcarga8bit at 17( 300) + 0 on 70;
+file . "regCarga1bit.vhdl" "41156e12cbc28c1440e281e737196eceb8a97e3b" "20240508232428.370":
+  entity regcarga1bit at 3( 29) + 0 on 63;
+  architecture reg1bit of regcarga1bit at 18( 263) + 0 on 64;
+file . "real8b.vhdl" "9c04ef7d5b0d5d1115aae00246e9de64e02c3db8" "20240509010641.742":
+  entity real8b at 3( 49) + 0 on 515;
+  architecture main of real8b at 17( 316) + 0 on 516;
+file . "PortaNot.vhdl" "decba51085b8ac22c33c6cefe23b7266dcd8e45c" "20240509010641.740":
+  entity portanot at 3( 67) + 0 on 513;
+  architecture comp of portanot at 13( 269) + 0 on 514;
+file . "overflow.vhdl" "cefac74c790f4501aba67659a4d9f9d82d32c903" "20240509010641.738":
+  entity overflow at 1( 0) + 0 on 509;
+  architecture comp of overflow at 13( 205) + 0 on 510;
+file . "Mux2x8.vhdl" "d488d4f9dd5856a7ae745c614f676b7411c6500c" "20240509010641.734":
+  entity mux2x8 at 3( 22) + 0 on 503;
+  architecture comuta of mux2x8 at 14( 238) + 0 on 504;
+file . "modulo_controle.vhdl" "46cbeadef20c35b127b2426339516aaca9e47ab8" "20240516180138.378":
+  entity modulo_controle at 1( 0) + 0 on 3329;
+  architecture behavior of modulo_controle at 14( 331) + 0 on 3330;
+  entity uc at 57( 1510) + 0 on 3331;
+  architecture comp of uc at 71( 1835) + 0 on 3332;
+  entity contador3bit at 196( 6106) + 0 on 3333;
+  architecture comp of contador3bit at 206( 6269) + 0 on 3334;
+  entity decod_8_to_11 at 237( 7061) + 0 on 3335;
+  architecture behavior of decod_8_to_11 at 250( 7304) + 0 on 3336;
+  entity uccounter at 271( 8191) + 0 on 3337;
+  architecture controle of uccounter at 281( 8389) + 0 on 3338;
+  entity nop at 295( 8626) + 0 on 3339;
+  architecture comp of nop at 307( 8881) + 0 on 3340;
+  entity snot at 321( 9320) + 0 on 3341;
+  architecture comp of snot at 333( 9570) + 0 on 3342;
+  entity add at 348( 9957) + 0 on 3343;
+  architecture comp of add at 360( 10206) + 0 on 3344;
+  entity sand at 375( 10668) + 0 on 3345;
+  architecture comp of sand at 387( 10918) + 0 on 3346;
+  entity sor at 402( 11380) + 0 on 3347;
+  architecture comp of sor at 414( 11629) + 0 on 3348;
+  entity sta at 429( 12096) + 0 on 3349;
+  architecture comp of sta at 441( 12345) + 0 on 3350;
+  entity lda at 456( 12801) + 0 on 3351;
+  architecture comp of lda at 468( 13050) + 0 on 3352;
+  entity jmp at 483( 13511) + 0 on 3353;
+  architecture comp of jmp at 495( 13760) + 0 on 3354;
+  entity jz at 509( 14149) + 0 on 3355;
+  architecture comp of jz at 521( 14403) + 0 on 3356;
+  entity jn at 536( 14836) + 0 on 3357;
+  architecture comp of jn at 548( 15090) + 0 on 3358;
+  entity hlt at 563( 15517) + 0 on 3359;
+  architecture comp of hlt at 575( 15766) + 0 on 3360;
+file . "modNeander.vhdl" "59e112fef82fc8d13c08f651094df3aef0393664" "20240516180138.351":
+  entity modneander at 1( 0) + 0 on 3327;
+  architecture comp of modneander at 11( 157) + 0 on 3328;
+file . "mem.vhdl" "316d268cd0b9bb1574a223168f1648e778ea288c" "20240516180138.349":
+  entity modulomem at 2( 21) + 0 on 3323;
+  architecture memoria of modulomem at 16( 396) + 0 on 3324;
+  entity as_ram at 62( 1756) + 0 on 3325;
+  architecture behavior of as_ram at 76( 2039) + 0 on 3326;
+file . "AddSub8bit.vhdl" "935f989aae8758b06b8dfa091a2dcef0eeed638e" "20240509010641.702":
+  entity addsub8std_logic at 3( 40) + 0 on 469;
+  architecture comportamento of addsub8std_logic at 17( 383) + 0 on 470;
+file . "pc.vhdl" "ecdc9223f370dc158bb24d2d6aa308dfbffbe3ff" "20240516180138.380":
+  entity pc at 4( 63) + 0 on 3363;
+  architecture main of pc at 19( 346) + 0 on 3364;
