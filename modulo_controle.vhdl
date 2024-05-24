@@ -388,7 +388,7 @@ architecture comp of sand is
     begin
     s(10) <= '1';
     s(9) <= not c(2) or c(1) or not c(0);
-    s(8 downto 6) <= "011";
+    s(8 downto 6) <= "010";
     s(5) <= not c(1) and (c(2) xor c(0));
     s(4) <= c(2) and c(1) and c(0);
     s(3) <= '0';
@@ -415,7 +415,7 @@ architecture comp of sor is
     begin
     s(10) <= '1';
     s(9) <= not c(2) or c(1) or not c(0);
-    s(8 downto 6) <= "010";
+    s(8 downto 6) <= "011";
     s(5) <= not c(1) and (c(2) xor c(0));
     s(4) <= c(2) and c(1) and c(0);
     s(3) <= '0';
